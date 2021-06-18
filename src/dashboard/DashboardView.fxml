@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="700.0" minWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.DashboardViewController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="700.0" opacity="0.64" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/Tailor/pina-messina-qQKv7r1BaRw-unsplash%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="38.0" layoutY="167.0" onMouseClicked="#openWorkerConsole" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="257.0" layoutY="167.0" onMouseClicked="#openMeasurementRecorder" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="472.0" layoutY="406.0" onMouseClicked="#openRecieved" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="258.0" layoutY="406.0" onMouseClicked="#openDeleiverd" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="38.0" layoutY="406.0" onMouseClicked="#openWorkerTable" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#845858" height="200.0" layoutX="472.0" layoutY="167.0" onMouseClicked="#openMeasurementTable" stroke="#845858" strokeType="INSIDE" width="187.0" />
+      <Label layoutX="123.0" layoutY="66.0" text="TAILOR DASHBOARD">
+         <font>
+            <Font name="Bell MT Bold" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="181.0" text="WORKER CONSOLE" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="417.0" text="WORKER" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="523.0" layoutY="204.0" text="GOOGLER" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="181.0" text="MEASUREMENT" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="523.0" layoutY="428.0" text="RECIEVING" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="428.0" text="DELEIVERY" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="204.0" text="RECORDER" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="497.0" layoutY="181.0" text="MEASUREMENT" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="439.0" text="GOOGLER" textFill="#f8f2f2">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="268.0" minWidth="500.0" prefHeight="268.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dress_delivered.DressDeliveredViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd880" height="52.0" stroke="#ffd880" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="138.0" layoutY="6.0" text="Dress Delievery" textFill="#6b011f">
+         <font>
+            <Font name="Bell MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="76.0" text="Order ID:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOID" layoutX="138.0" layoutY="77.0" />
+      <Button layoutX="336.0" layoutY="76.0" mnemonicParsing="false" onAction="#onFetch" prefHeight="26.0" prefWidth="97.0" text="Fetch" />
+      <TextField fx:id="txtItem" layoutX="62.0" layoutY="137.0" prefHeight="26.0" prefWidth="178.0" />
+      <TextField fx:id="txtAmount" layoutX="255.0" layoutY="137.0" prefHeight="26.0" prefWidth="178.0" />
+      <Label layoutX="62.0" layoutY="117.0" text="Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="117.0" text="Amount">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="90.0" layoutY="128.0" prefHeight="2.0" prefWidth="149.0" />
+      <Separator layoutX="304.0" layoutY="127.0" prefHeight="3.0" prefWidth="129.0" />
+      <Button layoutX="172.0" layoutY="200.0" mnemonicParsing="false" onAction="#onDelievered" prefHeight="39.0" prefWidth="165.0" text="DELIEVERED" />
+   </children>
+</AnchorPane>
